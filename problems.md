@@ -69,7 +69,9 @@ The granularity of applications is significantly too course, while the granulari
 
 #### Software Architecture Does Not Match Internet Of Things (IoT)
 
-The internet of things exists and is growing daily. Its fundamental nature is massively distributed and vastly networked.
+It was never a requirement of the Internet that people be the ones connected to it. In fact, people have never been connected to the Internet. It has always been machines. In the future, people may connect to the Internet via a direct neural linkage, but for now it will continue to be machines.
+
+The Internet of Things (IoT) is both old and new. Its fundamental nature is massively distributed and vastly networked. The things connected to the Internet may be interfaces for people, artificial intelligences, autonomous agents, sensors, or other machines.
 
 ---
 
