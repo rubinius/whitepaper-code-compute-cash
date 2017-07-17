@@ -1,6 +1,7 @@
 # Code, Compute, Cash: Reinventing Distributed Software
 
-_June 2017 by Brian Shirai, Rubinius, Inc._
+_Brian Shirai, Rubinius, Inc._
+_July 2017, Version 0.1_
 
 Computation powers the processing and sharing of information, which is essential to advancing civilization. Unharnessed by software, computation has the utility of static electricity in a thunder storm. The limitation on harnessing computation is the cost of building software.
 
