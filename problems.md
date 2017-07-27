@@ -1,6 +1,6 @@
 # Problems With Software Development And Delivery
 
-The term "software crisis" was coined nearly five decades ago and shows no significant signs of abating.[^3]
+The term "software crisis" was coined nearly five decades ago and shows no significant signs of abating.[^1]
 
 #### Misunderstanding Value
 
@@ -32,7 +32,7 @@ The cost of a single general purpose programming language runs into the hundreds
 
 #### Widespread And Inefficient Duplication
 
-In the past ten years, at least eight new programming languages or systems have come into popular use.[^4] Every one of these languages requires a component for managing software packages written in that programming language. None of them share this component.
+In the past ten years, at least eight new programming languages or systems have come into popular use.[^2] Every one of these languages requires a component for managing software packages written in that programming language. None of them share this component.
 
 And that is just the packaging system, which often competes with the packaging system provided by the operating system. But there are many additional components that are duplicated for every language, including the parser, compiler, optimizer or just-in-time (JIT) compiler, debugger, profiler, and code linter or analyzer.
 
@@ -73,7 +73,11 @@ It was never a requirement of the Internet that people be the ones connected to 
 
 The Internet of Things (IoT) is both old and new. Its fundamental nature is massively distributed and vastly networked. The things connected to the Internet may be interfaces for people, artificial intelligences, autonomous agents, sensors, or other machines.
 
+[^3]
+
 ---
 
-[^3]: [The software crisis](https://en.wikipedia.org/wiki/Software_crisis)
-[^4]: Clojure, Scala, Ruby, Elixir, Rust, Go, Node, Swift, Haskell.
+[^1]: [The software crisis](https://en.wikipedia.org/wiki/Software_crisis)
+[^2]: Clojure, Scala, Ruby, Elixir, Rust, Go, Node, Swift, Haskell.
+[^3]:
+[Radical new vertically integrated 3D chip design combines computing and data storage](http://www.kurzweilai.net/radical-new-vertically-integrated-3d-chip-design-combines-computing-and-data-storage)

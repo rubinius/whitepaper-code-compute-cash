@@ -1,4 +1,6 @@
-# Code, Compute, Cash: Reinventing Distributed Software
+# Code, Compute, Cash
+
+## Reinventing Distributed Software
 
 _Brian Shirai, Rubinius, Inc._
 _July 2017, Version 0.1_

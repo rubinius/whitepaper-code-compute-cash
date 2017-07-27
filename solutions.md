@@ -2,7 +2,7 @@
 
 ## Marketplace
 
-Examples of this are rapidly growing.[^5]
+Examples of this are rapidly growing.[^1]
 
 ## Model For Building Software
 
@@ -44,7 +44,7 @@ There are three sides to the Rubinius marketplace.
 
 #### Emergent Software
 
-Consistent with the distributed nature of software, the structure itself should emerge from the use of the software.[^6]
+Consistent with the distributed nature of software, the structure itself should emerge from the use of the software.[^2]
 
 #### Knowledge, Skill and Will
 
@@ -64,5 +64,5 @@ Markets can only approach fairness if no participants have unfair influence.
 
 ---
 
-[^5]: ["What is Kin?"](http://avc.com/2017/05/video-of-the-week-what-is-kin/)
-[^6]: Cite Dave Snowden's work on this.
+[^1]: ["What is Kin?"](http://avc.com/2017/05/video-of-the-week-what-is-kin/)
+[^2]: Cite Dave Snowden's work on this.
