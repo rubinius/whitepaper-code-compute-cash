@@ -14,4 +14,17 @@ Many of the existing problems with software development reduce to not applying l
 
 ## Minimal Transaction Costs
 
+## Purpose-built
+
+Purpose-built is not the same as customization, it's the opposite of general
+purpose.
+
 ## De-materialization and De-energization
+
+## Automation of Work
+
+This impacts identity and social standing. [^1]
+
+
+[^1]: Peter Diamandis identifies this as the greatest risk of work automation,
+causing greater social consequences than automation's impact on buying power.

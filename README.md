@@ -2,26 +2,33 @@
 
 ## Reinventing Distributed Software
 
-_Brian Shirai, Rubinius, Inc._
-_July 2017, Version 0.1_
+_Brian Shirai, Rubinius, Inc. March 2018, Version 0.8_
 
-Computation powers the processing and sharing of information, which is essential to advancing civilization. Unharnessed by software, computation has the utility of static electricity in a thunder storm. The limitation on harnessing computation is the cost of building software.
+**_Microservices_ are a context-independent and scale-independent architecture for digital products that maximizes applying new information while minimizing its cost.**
 
-There is not a single notable business today that does not depend on software, and one of the most pressing business questions, often an existential one, has become: _How to build better software, faster, and cheaper?_
+Microservices provide a structure for distributed applications that eliminate much of the waste associated with building digital products today because the attributes of microservices align with the unique properties of information.
 
-Marc Andreessen's statement that "software is eating the world" has been repeated _ad nauseam_, but it is misleading[^1]. _Software_ is not eating the world, _information processing_ is. And that information processing is rapidly being distributed among billions of devices connected, in some form, to the Internet.
+The primary process of any business is learning, not production, and microservices are an optimal structure for business.
 
-The Internet and the platforms it enables have radically changed business during the past two decades.
+In this paper, we begin with the problem of applying new information to an existing system in a competitive market, and summarize existing procedural and structural flaws that complicate building digital products. Then we define the structure and function of microservices. Following that, we introducte features of the Rubinius platform that reflect the structure of microservices and aid building them. Finally, we illustrate benefits of microservices relative to the problems of building digital products.
 
-The market capitalization of companies like Apple, Google, Amazon, Facebook, Airbnb, Uber, and Twitter illustrate this. But the impact is not limited to companies started in the Internet era. GE is a 124-year old company that has spent a billion dollars to become a top software and analytics company.[^2]
+### A note on terminology
 
-The problem is, the Internet has not yet changed the way software is built. With rare exceptions, even when using open source components, any piece of commercial software is built almost entirely within the boundary of a single firm. Consequently, software still costs too much, takes too long to build, and too often fails to provide expected business value.
+Careful use of definitions is essential to precise thinking. Beyond labeling, words provide differentiation. To complicate matters, words acquire their meanings over time. This is critically important in digital products because, as John Day says, _"We build what we measure."_[^1]
 
-These deficiencies can be attributed to three areas: 1. the technology used to build software; 2. the ecosystem in which software is built; and 3. how costs and benefits are attributed to software.
+There are various definitions of "microservices". While the one presented here may not agree precisely, the intention is that it agree broadly with the spirit of those existing definitions, while perhaps eliminating some aspects that don't appear fundamental and emphasizing others considered essential. Where this definition may vary, we justify that by way of its utility in defining activities that promote the goal of efficiently building digital products. _Microservices are distributed applications, but not all distributed applications are microservices._
 
-The solution requires distributing software construction onto Internet platforms, improving the technology used to build and deliver software to support the platforms, and balancing the economics of building software.
+### A note on theory
+
+Our purpose is not a _natural history_ of digital architecture. Instead, we desire to understand how information can be applied in a competitive market to successfully build digital products. We seek to understand cause-and-effect and leverage that to gain competitive advantage over our peers. Merely imitating behavior will never provide the leverage we need.
+
+Aspiring to a goal is not the same as attaining the goal. A moment's reflection hopefully convinces us that we should be dissatisfied with anything less than a _theory_ of applying information to build digital products in a competitive market. Whether we are making progress in that endeavor requires the scientific method. We form an explanation.[^2] We make predictions and test them. We extinguish incorrect beliefs[^3] and refine the explanation. Most of what we learn, we could not predict.[^4]
+
+The [web version](https://rubinius.gitbooks.io/whitepaper-code-compute-cash/content/) of this paper permits commenting, which is highly encouraged and appreciated. The paper is also available in PDF, ePub, and Mobi formats [at the GitBook website](https://www.gitbook.com/book/rubinius/whitepaper-code-compute-cash/details).
 
 ---
 
-[^1]: ["Why Software is Eating the World"](https://online.wsj.com/article/SB10001424053111903480904576512250915629460.html)
-[^2]: ["Waking Up as a Software and Analytics Company"](https://www.ge.com/digital/blog/waking-up-software-analytics-company-building-intelligence-machines-systems)
+[^1]: _Patterns in Network Architecture_, John Day, Prentice Hall, 2008
+[^2]: ["A New Way To Explain Explanation"](https://medium.com/dorothyknows/david-deutsch-a-new-way-to-explain-explanation-e153f981428c)
+[^3]: ["Extinction: a Constructor-Theoretic View"](https://medium.com/dorothyknows/chiara-marletto-extinction-a-constructor-theoretic-view-fc567fb02bfc)
+[^4]: ["The Unknowable & How To Prepare For It"](https://medium.com/dorothyknows/david-deutsch-the-unknowable-how-to-prepare-for-it-e1b2c7d78744)
