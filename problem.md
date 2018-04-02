@@ -62,103 +62,138 @@ What properties of information dictate the importance of access for information 
 
 1. The distribution of information is non-uniform due to the time required to propagate.
 
-1. Applying information implies change, either something that did not exist before, or something different than it was before. The change implies a cost.
-
-1. There is resistance to the flow of information because of the cost of change. Work is required to apply information.
+1. Work is required to apply information because it causes a change, either something that did not exist before, or something different than it was before. Work implies a cost, and that causes resistance to the flow of information.
 
 1. Information can be contradictory. Resolving the contradiction requires (possibly) generating and (at least) applying new information.
 
 1. Different amounts of information may be suitable for completing a task. This contrasts markedly with matter. For example, a bottle with a hole in the bottom is not suitable for containing liquid, but decades of car manufacturing illustrate how we may complete a process and yet have immense room to improve the process and result.
 
-1. The value of information degrades over time. As information becomes uniformly distributed, it becomes background, and change from that background implies applying new information. This process appears effectively infinite. A functioning car from fifty years ago will provide useful locomotion, but it won't compete in the market or on performance with a car built today. There is no vintage information.
+1. The value of information degrades over time. As information becomes uniformly distributed, it becomes background, and change from that background implies applying new information. This process appears unbounded. A functioning car from fifty years ago will provide useful locomotion, but it won't compete in the market or on performance with a car built today. There is no vintage information.
 
 These properties are inter-related and interact, but do not appear reducible. There are both individual effects and systemic affects. The time to propagate is both a limitation of a signal (i.e. the speed of light) and a result of systemic resistance. The systemic resistance is partly due to the cost implied by change, but also related to non-uniform distribution. If I have sufficient resources and great determination but haven't receive the information yet, no effect is possible.
 
 We apply information to build digital products whose value derives from applying information. We are tool makers. In material manufacturing, tool makers are a subset of all manufacturing. For digital products, the tool makers are a superset of all digital products.
 
+The principle problem of access to relevant information at the moment of deciding, which derives from the properties of information described above, requires a mechanism for building digital products that is like the assembly line for manufacturing. That mechanism is _microservices_.
+
+To fully understand the value of microservices, it's necessary to reflect on the messes we create when we misunderstand the probem of building digital products.
 
 ## Messes made misunderstanding information
 
-
 The term "software crisis" was coined nearly five decades ago and shows no significant signs of abating.[^1]
 
-#### Misunderstanding Value
+Common symptoms of the software crisis include projects that exceed predicted timelines and budgets, software that fails to meet quality standards or fails to function as expected, and systems that require enormously greater resources to maintain than predicted.
 
-Code is a liability, not an asset. The code itself should be discarded at the earliest opportunity. The focus of a business should be replicating, transmitting, and refining what it is learning. DNA carries genetic information, but it is the expression of those genes that has value. Similarly, code may be the carrier of the firm's information and learning, but it is the running code that provides value.
+These messes can be roughly grouped into three areas:
 
-#### Software Construction Is Not Distributed
+1. Misapplication of manufacturing processes to building digital products;
+1. Failure to exploit existing, available knowledge; and
+1. The myth of the general-purpose programming language.
 
-Today, any interesting piece of software is talking to other software on a separate physical device. This was not true of most software a few decades ago. That is to say, the boundaries of software are less distinct, and software is inherently distributed.
+### Misapplying manufacturing processes to digital products
 
-To illustrate the first point, if this program talks to software that is essential to its functioning, is that software a part of the program?
+Everywhere that digital products are built, businesses have applied material manufacturing processes to building them. But matter and information have different fundamental problems. Misapplying manufacturing processes causes far higher costs by wasting resources on unnecessary activities or delaying the value that could be generated.
 
-#### Poor Adoption Of Technology Advances
+_Digital products require different processes from those used for material manufacturing._
 
-The data supporting the use of DevOps to drive favorable business outcomes is well established, but many firms consider adoption to be optional or have not even considered it. Beyond leaving money on the table, this negligence could threaten the existence of many of these businesses.
+In manufacturing processes, _status_, _testing_, and _delivery_ are so critical to the successful outcome that they constitute a huge portion of the total cost.
 
-#### The General-Purpose Myth
+The question, _"What is the status of this?"_ is important because of the need to coordinate many things to get pieces of matter to arrive at the same place and time.
 
-the idea of whole (coherent) enough to complete a task. one of a kind, custom, general purpose, specialized
+Acquiring matter and moving it around requires a lot of energy. Since no two pieces of matter can occupy the same place at the same time, coordination errors can be extremely costly. Also, idle machines and workers are wasted resources.
+
+The need for testing is imposed on material manufacturing by the properties of matter. Testing must be performed before manufacturing so that correctness is confirmed. "Does this piece connect to this other piece within the manufacturing tolerances and in a way that results in the completed component functioning correctly?"_ This must be right beforehand because it is extremely costly to change after starting manufacturing.
+
+Finally, the product must be delivered to the customer intact and working correctly. Transporting the product is costly, and the customer must be satisfied, or they will return the product and the cost of the product and cost to process the return are wasted resources.
+
+In manufacturing, the need for _coordination_ underlies the processes for status, testing, and delivery,
+
+Why is coordination nearly irrelevant in digital products?
+
+Consider a Tesla car. Two examples are the autopilot feature and the battery capacity. These are software updates. The hardware has the capability, but whether that capability is accessible is determined by some value in the software.
+
+We can generalize this to _any_ feature in a digital product.
+
+An enormous amount of information can essentially occupy the same place at the same time. We can deliver features that are not enabled yet, or we can simultaneously deliver multiple alternative features in a single application, and determine at the moment of interaction which will be used.
+
+In a digital product, at any moment, we can create a feature _that completes a task_ with some degree of functionality, and then refine that repeatedly without needing any other coordination or disturbing the rest of the system in any way.
+
+This is similar to the process of building a bridge across difficult terrain where an initial, lightweight string of material is passed across, that’s used to pull across a heavier, more capable wire, and that’s used to bring across something more useful, and so on.
+
+Using this process of refinement, we can integrate with a remote system we do not control with almost no coordination, or with the cost of any necessary coordination being extremely low.
+
+Since coordination is not imposed on building digital products like it is in material manufacturing, the need for status nearly disappears. But more importantly, _the digital product itself is the status_. Requiring status updates as an artifact independent of the digital product adds cost without value.
+
+What about testing? Without the need for coordination, the requirement for testing at a privileged point in time, before manufacturing, is eliminated as well.
+
+Correctness in a digital product is not a unitary property, completely true at a moment in time. One feature may be correct and useful while another is not. Correctness may also be refined over time. The changes can be localized to part of the product so that their cost can be minimized.
+
+_Correctness becomes a function of the digital product, not something that can be asserted beforehand._
+
+Digital products interact with people and other agents beyond the control of those building the products. That interaction requires specifying boundaries of correct behavior and constantly monitoring and adjusting the system to maintain those invariants.
+
+Now, consider delivery. Nearly every digital product is, or will be, delivered almost instantly at the moment it is used. Once the infrastructure is built, there is almost no coordination at the point of use, much like turning on a light switch and using electricity.
+
+Digital products do not require the same manufacturing processes of status, testing, and delivery, but they do require processes to minimize their cost. We will examine those necessary processes in [Part 4](benefits.md)
+
+### Failure to apply existing knowledge
+
+Lacking any theory of "applied information", advocating for one process instead of another when building digital products devolves to an appeal to power, fame, or fashion. Either the decision is made by someone who wields the most power, or by following the advice of the most famous person, or by whatever happens to be of most interest to people at the moment.
+
+This state of affairs should deeply concern us, but as builders of digital products, we are not alone. Renown physicist, Sir Roger Penrose has written a book titled, _Fashion, Faith, and Fantasy in the New Physics of the Universe_. However, just because we are in good company shouldn't lessen the urgency to find firmer intellectual ground.
+
+The messes we create because we don't have a good theory tend to perpetuate the messes much more than they encourage developing that theory. They form a reinforcing loop of negative outcomes where the frustration caused by our inability to solve the "software crisis" adds fuel to the effort to "find something that works". The current appeal in some circles to "software craftsmanship" reflects the confusion. John Day has been highly critical of the same lack of theory development in the domain of networking broadly and the Internet in particular.[^2]
+
+Numerous approaches have been offered to improve the quality, efficiency, and predictability of software, including Waterfall, Agile, Scrum, Lean, and DevOps. Some of these approaches blend elements from the others. The approaches have _evangelists_ who interpret the approaches for the masses, weigh in on correct applying them, and attempt to convert companies to the approach. Sometimes the results are measured, but if that's too difficult, it's acceptable to cite anectdote as pursuasive evidence.
+
+Either it's true that any possible approach to building digital products is as likely to be as effective, or there is a reason to use one approach instead of another. The inability to justify using an approach based on outcomes that can be independently predicted by theory and verified prevents us from learning from advancing knowledge.
+
+It should be apparent that matter and information differ. If manufacturing processes are not transferable to building digital products, we should wonder what structure and processes are required. Until we understand that, we will continue making messes.
+
+### The general-purpose myth
+
+The evolution of all products follows a predictable path. First there is no product, but there is a need for completing some task. Then there is a one-of-a-kind, like the first Wright brothers airplane that flew. Then there are custom products that built one-at-a-time. Following some standardization, there is a relatively general product that can be mass-produced.
+
+The mass production, econmies of scale stage is often seen as the pinnacle of manufacturing. But there is a stage beyond it. Mass production implies a generalization within some acceptable tolerance. Beyond mass production is the _specialized_ product. This stage efficiently produces variations that have value beyond the generality of mass production.
 
 The belief that a single programming language is suitable for almost any task is widely held with an unquestioning certitude that goes beyond advocacy to dogma. There are several consequences of this myth:
 
-  1. Enormous expenditure to create a general purpose programming language and ecosystem;
+1. Enormous expenditure to create a general purpose programming language and ecosystem;
 
-  1. Significant disincentive to share critical pieces of infrastructure between ecosystems because it is difficult to do so or because the language should be capable of the tasks and maintenance favors the ecosystem's own language;
+1. Significant disincentive to share critical pieces of infrastructure between ecosystems because it is difficult to do so, or because the language should be capable of the tasks and maintenance favors the ecosystem's own language;
 
-  1. Enormous cost to advance a system written in one language by rewriting it in another general purpose programming language; and
+1. Enormous cost to advance a system written in one language by rewriting it in another general purpose programming language; and
 
-  1. Inefficient transfer of learning as each separate general purpose programming language ecosystem relearns, for example, how to do concurrency effectively.
+1. Inefficient transfer of learning as each separate general purpose programming language ecosystem relearns, for example, how to do concurrency effectively.
 
-The cost of a single general purpose programming language runs into the hundreds to thousands of human-years of effort. The inefficiency of transferring learning and the cost of duplication are notable aspects of the general purpose language myth, but are so widespread in general that they require their own topics.
+The cost of a single general purpose programming language runs into the hundreds to thousands of human-years of effort.
 
-#### Widespread And Inefficient Duplication
-
-In the past ten years, at least eight new programming languages or systems have come into popular use.[^2] Every one of these languages requires a component for managing software packages written in that programming language. None of them share this component.
+In the past ten years, at least eight new programming languages or systems have come into popular use.[^3] Every one of these languages requires a component for managing software packages written in that programming language. None of them share this component.
 
 And that is just the packaging system, which often competes with the packaging system provided by the operating system. But there are many additional components that are duplicated for every language, including the parser, compiler, optimizer or just-in-time (JIT) compiler, debugger, profiler, and code linter or analyzer.
 
+The general purpose myth permeates every corner of digital products because code has a central role in all the systems. The current boundaries around a working system encompass so much code that a single language is required, even if not desired.
 
-#### Failure To Exploit Learning
+The resistance to change baked into digital products compounds the cost of interoperability and virtually guarantees that using a different programming language in the product will force rewriting large portions of code, or struggling with brittle, nearly impermeable boundaries between parts implemented in different languages.
 
-Use of concurrency and approaches to building distributed systems.
+All of the effects of the general purpose myth raise the cost of sharing and adopting advances in knowledge.
 
-#### Lack Of Ecosystem Diversity
+## Summary of the problem
 
-The dominance of the infrastructure-as-a-service market by Amazon AWS, Google, Microsoft, and DigitalOcean are visible to everyone, but lack of diversity in the ecosystem extends everywhere, from chip manufacturers to programming languages to operating systems to software libraries.
+Access to relevant information at the moment of making a decision is the fundamental problem of working with information, both when building digital products and when using them.
 
-The lack of diversity is exploited for their own benefit by the dominant players, but the ecosystem suffers from
+Manufacturing processes suited for the problem of coordination that is dictated by the properties of matter add unnecessary cost when applied to building digital products.
 
-#### Dysfunctional Open-Source Ecosystem
+However, based on the existence of the assembly line for manufacturing, we should expect that a structure and process for building digital products exists.
 
-Broadly, open source is an exploitative ecosystem. The majority of the creators of open source do not capture any value from the ecosystem, and the vast majority of those who profit by using open source do not incur any cost from their use of open source.
+Developing such a structure requires understanding the properties of information and developing a suitable theory that will predict the outcome of taking one approach instead of another.
 
-#### Centralized Control Of Computation
+Without developing theory, we will remain limited by the messes we create when applying _ad hoc_ attempts to find, in John Day's words, "something that works".
 
-Those in control serve their own interests, without exception.
-
-#### Location-Based Addressing
-
-One of the worst flaws in the existing structure of the internet is the coupling of trust with a particular machine address.
-
-#### Economic Exploitation
-
-The business models of Facebook and Google are fundamentally rooted in farming people, extracting attention, and mining data that they do not own.
-
-#### Wrong Granularity For Collaboration
-
-The granularity of applications is significantly too course, while the granularity of traditional packages of code, software libraries, is too fine. The necessary level of granularity to support effective collaboration is the elusive software component, something that roughly mirrors today's microservices.
-
-#### Software Architecture Does Not Match Internet Of Things (IoT)
-
-It was never a requirement of the Internet that people be the ones connected to it. In fact, people have never been connected to the Internet. It has always been machines. In the future, people may connect to the Internet via a direct neural linkage, but for now it will continue to be machines.
-
-The Internet of Things (IoT) is both old and new. Its fundamental nature is massively distributed and vastly networked. The things connected to the Internet may be interfaces for people, artificial intelligences, autonomous agents, sensors, or other machines.
-
-[^3]
+In [Part 2], we examine a structure and process for building digital products.
 
 ---
 
 [^1]: [The software crisis](https://en.wikipedia.org/wiki/Software_crisis)
-[^2]: Clojure, Scala, Ruby, Elixir, Rust, Go, Node, Swift, Haskell.
-[^3]: [Radical new vertically integrated 3D chip design combines computing and data storage](http://www.kurzweilai.net/radical-new-vertically-integrated-3d-chip-design-combines-computing-and-data-storage)
+[^2]: Personal correspondence and _Patterns in Network Architecture_, John Day, Prentice Hall, 2008
+[^3]: Clojure, Scala, Ruby, Elixir, Rust, Go, Node, Swift, Haskell.

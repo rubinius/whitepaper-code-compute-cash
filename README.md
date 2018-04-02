@@ -2,7 +2,7 @@
 
 ## Reinventing Distributed Software
 
-_Brian Shirai, Rubinius, Inc. March 2018, Version 0.8_
+_Brian Shirai, Rubinius, Inc. April 2018, Version 0.8_
 
 **_Microservices_ are a context-independent and scale-independent architecture for digital products that maximizes applying new information while minimizing its cost.**
 
@@ -10,7 +10,7 @@ Microservices provide a structure for distributed applications that eliminate mu
 
 The primary process of any business is learning, not production, and microservices are an optimal structure for business.
 
-In this paper, we begin with the problem of applying new information to an existing system in a competitive market, and summarize existing procedural and structural flaws that complicate building digital products. Then we define the structure and function of microservices. Following that, we introducte features of the Rubinius platform that reflect the structure of microservices and aid building them. Finally, we illustrate benefits of microservices relative to the problems of building digital products.
+In this paper, we begin in [Part 1](problem.md) with the problem of applying new information to an existing system in a competitive market, and summarize existing procedural and structural flaws that complicate building digital products. Then we define the structure and function of microservices in [Part 2](solution.md). In [Part 3](platform.md) we introduce features of the Rubinius platform that reflect the structure of microservices and aid building them. Finally in [Part 4](benefits.md), we illustrate benefits of microservices relative to the problems of building digital products.
 
 ### A note on terminology
 
