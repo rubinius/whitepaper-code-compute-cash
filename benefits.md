@@ -1,5 +1,24 @@
 # Benefits of a Microservices Platform
 
+## Structure of digital products
+
+## Process for building digital products
+
+## Distribution and diversity
+
+## A new paradigm for business
+
+As a brief aside, contrast this with Agile, Scrum, or Lean. What are the units of measure for Agile? How Scrum (how much Scrum?) is your marketing team? What was the average Lean per day last quarter?
+
+Misunderstanding the lack of coordination required for building digital products has misled us about the usefulness of things like Agile, Scrum, and Lean. Instead of being useful, they are adding irrelevant activities and unnecessary costs.
+
+
+Just as there is a cost to build an assembly line, there is obviously a cost to build the microservices _infrastructure_, but this can be done in a standard way and learning can be widely shared. Microservices represent the _minimum_ cost for providing the necessary infrastructure.
+
+The biggest flaw in current approaches to microservices is the failure to recognize the opportunity, and tremendous value, of standardization. The cloud providers, which are focused on enabling arbitrary architectures and workloads, are not building microservices infrastructure.
+
+In fact, there is significant similarity between cloud providers and telecoms from before the Internet. In both cases, the "infrastructure" they provide will be commoditized. For telecoms, the rise of packet-switched networks eliminated the need for specialized kinds of hardware and distinguished routes (virtual circuits).
+
 
 ## Microservices and the size of a business
 
@@ -11,7 +30,7 @@ In my article on "The Nature of the Firm" I argued that, although production cou
 
 This is absolutely fascinating. Let’s see why.
 
-While Coase does not explicitly refer to the firm’s boundary, it is essential to understanding the firm’s size, which is precisely the number of employees inside that boundary.
+While Coase does not explicitly refer to the firm’s boundary, it is the boundary that determines the firm’s size, which is precisely the number of employees inside that boundary.
 
 Consider the boundary of a digital product, like Twitter. Assume that Twitter runs some of its processes on Amazon AWS and some in its own data center.
 
@@ -138,18 +157,6 @@ There are three sides to the Rubinius marketplace.
 #### Emergent Software
 
 Consistent with the distributed nature of software, the structure itself should emerge from the use of the software.[^4]
-
-#### Knowledge, Skill and Will
-
-Three categories of prospective customers.
-
-#### Beachhead Strategy
-
-Those who want to create something new.
-
-#### Experimenting With Price
-
-Maximizing plans.
 
 #### Driving Fragmentation
 

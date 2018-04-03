@@ -190,7 +190,7 @@ Developing such a structure requires understanding the properties of information
 
 Without developing theory, we will remain limited by the messes we create when applying _ad hoc_ attempts to find, in John Day's words, "something that works".
 
-In [Part 2], we examine a structure and process for building digital products.
+In [Part 2](solution.md), we examine a structure and process for building digital products.
 
 ---
 

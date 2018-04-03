@@ -69,58 +69,75 @@ _**It is this resilience to change that makes microservices so powerful in the c
 
 ## Microservices are universal
 
-Microservices are context-independent.
+The properties of microservices make them highly compatible with a network of heterogeneous devices, from cloud servers to connected, embedded devices, and sensors in any environment.
 
-The four attributes of microservices make them highly compatible with a network of heterogeneous devices, from cloud servers to connected, embedded devices, and sensors in any environment.
+In fact, this architecture excels at dealing with this variance of scale. A process running on an 8-bit Arduino can have both the wholeness attribute of coherence, and communicate in a network where it can be provided exactly what it needs by leveraging substitutability. Microservices provide a single unifying architecture.
 
-In fact, more than compatible, this architecture excels in dealing with this variance of scale. A process running on an 8-bit Arduino can both have the wholeness attribute of coherence, and communicate in a network where it can be provided exactly what it needs by leveraging substitutability. There is a single unifying architecture.
+Since there are no problem domains that are incompatible with the properties of microservices, they are _context-independent_.
 
-Microservices are also scale-independent.
-
-Of course, as we scale down, at some point we reach a physical CPU, and that level would not be another recursion into nodes in a graph. But it’s worth noting that Carl Hewitt’s Actor model of computation (which is at least equivalent to the lambda calculus or Turing machine models of computation), where an Actor sends and receives messages, is consistent with the structure of microservices.
+Of course, as we scale down, at some point we reach a physical CPU, and that level would not be another recursion into nodes in a graph. But it’s worth noting that Carl Hewitt’s [Actor model](https://en.wikipedia.org/wiki/Actor_model) of computation (which is at least equivalent to the lambda calculus or Turing machine models of computation), where an Actor sends and receives messages, is consistent with the structure of microservices.
 
 As we scale up, there is no limit where microservices become insufficient. A subgraph of a multitude of processes can be represented to another part of the graph as a single node, if that were necessary.
 
+Since system size is not a factor of the essential properties of microservices, the are also _scale-independent_.
+
 By scale-independence, we emphatically do not mean the ability to "scale" a particular application. Microservices have been misunderstood as only suitable when dealing with a large volume of requests or users. This has caused a great deal of confusion.
 
-Adapting to a volume of users or requests is one problem in the entire set of problems that an application may need to address. Other problems may be a bound on the latency of a response, or the volume of responses that can be handled in a particular unit of time, or the total throughput of data in the system, or the rate of change of the system, or the size of the team building the application.
+Adapting to a volume of users or requests is _one problem_ in the entire set of problems that an application may need to address. Other problems may be a bound on the latency of a response, or the volume of responses that can be handled in a particular unit of time, or the total throughput of data in the system, or the rate of change of the system, or the size of the team building the application.
 
-All of these potential problems are examples of the need to apply learning when building an application.
-
+All of these potential problems are examples of the need to apply learning when building an application. They can all be handled using the essential properties of microservices.
 
 ## Microservices are optimal
 
-Microservices are transparent to the problem being solved.
+Beyond being independent of context and scale, microservices are transparent to the problem being solved.
 
-The attributes, especially substitutability, permit an arbitrarily small local change that does not perturb the system but allows for adding new information.
+The properties, especially substitutability, permit an arbitrarily small local change that does not perturb the existing system but allows for adding new information.
 
 The structure of microservices does not impose additional overhead on the solution to a problem, which maximizes the ability to apply learning to the system. This is not true of other architectures.
 
+For example, consider an architecture that forces a certain minimum cycle time, like deploying once a week. The additional cost of coordination to meet that constraint has no value to the solution. It is pure overhead. In this way, that more limited architecture is _not_ transparent to the problem.
+
+Any system that has the same properties described here, and does not impose additional constraints on the solution to a problem, is equivalent to microservices.
+
+To be a _superior_ architecture for the basic problem of working with information, a system would need to provide greater leverage for applying new information, or further reduce the cost of applying information.
+
+This is exactly the case we saw for the assembly line in manufacturing. Microservices are universal and optimal. They are a necessary and sufficient structure for building digital products.
+
+In [Part 4](), we will examine the costs of building microservices infrastructure, and the effect microservices will have on existing businesses, including cloud providers.
+
 ## A process for working with microservices
 
-the idea of whole (coherent) enough to complete a task.
+As detailed in [Part 1](problem.md), one of the biggest messes we make building digital products is caused by applying manufacturing processes to information.
 
-The end-to-end approach is a fundamental process for working with information because it helps identify and eliminate uncertainty due to missing information that can hide costs.
+The properties of microservices illuminate both a structure _and a process_ that is consistent with the properties of information.
 
-Key Idea #4 — To support the end-to-end approach, there are three necessary measurements: 1. batch size; 2. cycle time; and 3. quality of feedback loops.
+Here again we encounter the idea of coherence, in this case, the idea of whole enough to complete a task.
+
+The holistic approach builds a complete task in the simplest way and then refines it as information is created or becomes available. It is a fundamental process for working with information because it helps identify and eliminate uncertainty due to missing information that can hide costs.
+
+To support the holistic approach, there are three necessary measurements: 1. batch size; 2. cycle time; and 3. quality of feedback loops.
 
 These three measurements monitor how well the system is processing new information, and provide notice when intervention is necessary.
 
-Batch size is a measure of the amount of stuff that must be coordinated as a unit that is moving from one stage to another in your process. This can be measured at a point in time (how big is this batch) and over time (what is the average batch size).
+_Batch size_ is a measure of the amount of stuff that must be coordinated as a unit that is moving from one stage to another in your process. This can be measured at a point in time (how big is this batch) and over time (what is the average batch size).
 
-Cycle time is the time it takes to complete one pass through your process.
+_Cycle time_ is the time it takes to complete one pass through your process.
 
-Quality of feedback loops is a measure of necessary information being available at the point a decision needing that information is made.
+_Quality of feedback loops_ is a measure of necessary information being available at the point a decision needing that information is made.
 
 These measurements are actionable. A batch size that is tending to drift larger may have many causes that may require analysis, but the effect (batch size) is unambiguous.
 
-As a brief aside, contrast this with Agile, Scrum, or Lean. What are the units of measure for Agile? How Scrum (how much Scrum?) is your marketing team? What was the average Lean per day last quarter?
-
-Misunderstanding the lack of coordination required for building digital products has misled us about the usefulness of things like Agile, Scrum, and Lean. Instead of being useful, they are adding irrelevant activities and unnecessary costs.
-
 To build digital products, we use the end-to-end approach and monitor batch size, cycle time, and the quality of feedback loops to control the overall process of learning the cause-and-effect relationship for generating value.
 
-What structure of a digital product supports this? Surely, we should not expect this structure to be arbitary.
+## Summary of the solution
+
+Microservices are a structure dictated by the properties of information.
+
+Like manufacturing and the assembly line, microservices are the lowest cost solution the critical problem of access to information at the moment of making a decision, both in the process of building digital products, and for the digital products themselves as they are used by people as they solve problems.
+
+Further, the structure of microservices dictate the process for building applications.
+
+In [Part 3](platform.md), we describe the Rubinius virtual machine and infrastructure for microservices.
 
 ---
 

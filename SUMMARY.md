@@ -13,6 +13,7 @@
   * [Microservices are universal](solution.md#microservices-are-universal)
   * [Microservices are optimal](solution.md#microservices-are-optimal)
   * [A process for working with microservices](solution.md#a-process-for-working-with-microservices)
+  * [Summary of the solution](solution.md#summary-of-the-solution)
 * [3. The Rubinius Microservices Platform](platform.md)
 * [4. Benefits of a Microservices Platform](benefits.md)
 * [References](references.md)
