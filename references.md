@@ -11,5 +11,6 @@ Newman, S., Building Microservices, O’Reilly Media, 2015
 Reinertsen, D. G., The Principles of Product Development Flow, Celeritas Publishing, 2009
 Sloman, S., Fernbach, P., The Knowledge Illusion, Riverhead Books, 2017
 Smolin, L., The Trouble with Physics, First Mariner Books, 2007
+Spear, S. J., The High-Velocity Edge, McGraw-Hill, 2009
 Sussna, J., Designing Delivery, O’Reilly Media, 2015
 Wolff, E., Microservices: Flexible Software Architecture, Addison-Wesley, 2017

@@ -131,11 +131,11 @@ To build digital products, we use the end-to-end approach and monitor batch size
 
 ## Summary of the solution
 
-Microservices are a structure dictated by the properties of information.
+Microservices are a structure for digital products dictated by the properties of information.
 
-Like manufacturing and the assembly line, microservices are the lowest cost solution the critical problem of access to information at the moment of making a decision, both in the process of building digital products, and for the digital products themselves as they are used by people as they solve problems.
+Like manufacturing and the assembly line, microservices are the lowest cost solution to the critical problem of access to information at the moment of making a decision, both in the process of building digital products, and for the digital products themselves as they are used by people to solve problems.
 
-Further, the structure of microservices dictate the process for building applications.
+Further, the structure of microservices dictate the process for building applications. The process relies on three objective measures that guide the effort applied rather than vague idea of "agility" that try to bridge manufacturing and digital products but are useful to neither domain.
 
 In [Part 3](platform.md), we describe the Rubinius virtual machine and infrastructure for microservices.
 
