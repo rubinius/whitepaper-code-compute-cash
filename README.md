@@ -1,12 +1,20 @@
 # Code, Compute, Cash
 
-## Reinventing Distributed Software
+## A Distributed Microservices Platform
 
 _Brian Shirai, Rubinius, Inc. April 2018, Version 0.8_
 
-**_Microservices_ are a context-independent and scale-independent architecture for digital products that maximizes applying new information while minimizing its cost.**
+Just over 100 years ago, on December 1st, 1913, the first moving assembly line was installed by Henry Ford. The assembly line reduced the time to produce an automobile to 20% of the time it originally required.
 
-Microservices provide a structure for distributed applications that eliminate much of the waste associated with building digital products today because the attributes of microservices align with the unique properties of information.
+The assembly line is one of the most recognizable and outstanding successes of mass industrialization.
+
+With the development of digital technology last century, businesses adopted manufacturing models and processes to build digital products. Unfortunately, despite the example provided by manufacturing, there are no outstanding successes in digital products that rival what we have achieved in manufacturing.
+
+Much of the blame for our inability to _industrialize_ digital products can be placed on the adoption of manufacturing processes. Information is fundamentally different than matter, and that difference requires a different mechanism than the assembly line.
+
+**_Microservices_ are a context-independent and scale-independent mechanism and structure for digital products that maximizes applying new information while minimizing its cost.**
+
+The properties of information dictate both the structure of microservices and the processes used to build digital products, just as the properties of matter dictate use of the assembly line and processes for controlling manufacturing.
 
 The primary process of any business is learning, not production, and microservices are an optimal structure for business.
 
