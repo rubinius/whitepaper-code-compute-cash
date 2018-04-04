@@ -96,7 +96,7 @@ The containment offered by securing communication and imposing fine-grained boun
 
 As hinted at with respect to security above, the _boundary_ of an application becomes indistinct when microservices are ubiquitous. This will be expanded on below, but the implication for correctness is important here.
 
-The quality of an application will be a property of its correctness. The ability to "test" before "delivering" an application will not exist. The inter-dependence of services will mean that substantial portions of the application will not be controlled by the same team or company. Just like security, correctness will be an ongoing, fluid response by the application in real time.
+The quality of an application will be a property of its correctness. The ability to "test" before "delivering" an application will not exist. The inter-dependence of services will mean that substantial portions of the application will not be controlled by the same team or company. Just like security, correctness will be an ongoing, fluid response by the application in real time. Quality will encompass correctness, response to scaling demand, and recovery from errors.
 
 Quality will also be a function of business value. Where additional quality can provide more value, it will be added. This will be measured at such fine granularity that significant waste resulting from overbuilding will be eliminated. The decision whether to use an existing service or build one will be constantly re-evaluated in response to changing circumstances and changing demand. The ability to respond quickly, and at such fine granularity, is built into the infrastructure of microservices.
 
@@ -150,161 +150,17 @@ The advantage for every business is that they will be able to leverage highly st
 
 ## Decentralization promotes diversity
 
+The impact that microservices will have on businesses indicates a trend away from the massive centralization that is currently the norm.
+
+Any degree of lessening of centralization is _decentralization_. It is the trend that should interest us. The property of information that makes it infinitely copiable is another force working against centralization.
+
+Decentralization implies, but does not guarantee, more diversity. Decentralization is the only way that diversity can increase.
+
+Microservices provide the granularity that supports collaboration in a way that supports diversity.
+
 ## A return to human values
 
 ## Summary of the benefits
-
-
-
-
-
-testing, pair-wise, contract, collaboration, inductive, isolation property, constant monitoring for correctness, healing and recovery
-
-#### Software Construction Is Not Distributed
-
-Today, any interesting piece of software is talking to other software on a separate physical device. This was not true of most software a few decades ago. That is to say, the boundaries of software are less distinct, and software is inherently distributed.
-
-To illustrate the first point, if this program talks to software that is essential to its functioning, is that software a part of the program?
-
-#### Failure To Exploit Learning
-
-Use of concurrency and approaches to building distributed systems.
-
-#### Poor Adoption Of Technology Advances
-
-The data supporting the use of DevOps to drive favorable business outcomes is well established, but many firms consider adoption to be optional or have not even considered it. Beyond leaving money on the table, this negligence could threaten the existence of many of these businesses.
-
-
-MVP
-
-standardization, 10,000 times less costly
-
-size of organization
-
-ability to solve real problems, minimum contribution
-
-interoperability
-
-cloud optional, efficiency, trasparency, scaling
-
-security
-
-the idea of whole (coherent) enough to complete a task.
-
-# Trends
-
-## Ubiquitous Computation
-
-## Fragmented Marketplaces
-
-## Platforms
-
-## Minimal Transaction Costs
-
-## Purpose-built
-
-Purpose-built is not the same as customization, it's the opposite of general
-purpose.
-
-## De-materialization and De-energization
-
-## Automation of Work
-
-
-# Rubinius Solutions
-
-## Marketplace
-
-Examples of this are rapidly growing.[^1]
-
-## Model For Building Software
-
-#### Distributed Software Construction By Example
-
-How to build what you want to build.
-
-A recent example of distributed software construction.[^2]
-
-## Technology
-
-#### Instruction Set
-
-Defining computation.
-
-[^3]
-
-#### Language Infrastructure
-
-Supporting language experimentation, innovation, and integration.
-
-#### Mixed Execution
-
-Managed runtime and native code.
-
-#### Memory Models
-
-Open, closed, and isolated.
-
-#### Distributed Code
-
-IPFS
-
-#### Infrastructure
-
-Provide the standard components for distributed software like monitoring, rate limiting, authorization, tracing, and security.
-
-## Business Model
-
-#### Buyers, Sellers and Rubinius
-
-There are three sides to the Rubinius marketplace.
-
-#### Emergent Software
-
-Consistent with the distributed nature of software, the structure itself should emerge from the use of the software.[^4]
-
-#### Driving Fragmentation
-
-Markets can only approach fairness if no participants have unfair influence.
-
-# Opportunities
-
-## Internet of Things
-
-## Augmented Reality
-
-## AI for Knowledge
-
-## Bio-informatics and Health
-
-## Autonomous Vehicles and Robotics
-
-
-#### Lack Of Ecosystem Diversity
-
-The dominance of the infrastructure-as-a-service market by Amazon AWS, Google, Microsoft, and DigitalOcean are visible to everyone, but lack of diversity in the ecosystem extends everywhere, from chip manufacturers to programming languages to operating systems to software libraries.
-
-The lack of diversity is exploited for their own benefit by the dominant players, but the ecosystem suffers from
-
-#### Dysfunctional Open-Source Ecosystem
-
-Broadly, open source is an exploitative ecosystem. The majority of the creators of open source do not capture any value from the ecosystem, and the vast majority of those who profit by using open source do not incur any cost from their use of open source.
-
-#### Centralized Control Of Computation
-
-Those in control serve their own interests, without exception.
-
-#### Location-Based Addressing
-
-One of the worst flaws in the existing structure of the internet is the coupling of trust with a particular machine address.
-
-#### Economic Exploitation
-
-The business models of Facebook and Google are fundamentally rooted in farming people, extracting attention, and mining data that they do not own.
-
-#### Wrong Granularity For Collaboration
-
-The granularity of applications is significantly too course, while the granularity of traditional packages of code, software libraries, is too fine. The necessary level of granularity to support effective collaboration is the elusive software component, something that roughly mirrors today's microservices.
 
 
 ---
