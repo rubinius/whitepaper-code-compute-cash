@@ -24,6 +24,7 @@
   * [Decentralization promotes diversity](benefits.md#decentralization-promotes-diversity)
   * [A return to human values](benefits.md#a-return-to-human-values)
   * [Summary of the benefits](benefits.md#summary-of-the-benefits)
+  * [Start here](benefits.md#start-here)
 * [References](references.md)
 * [Code of Conduct](code_of_conduct.md)
 * [Online Discussion](online_discussion.md)

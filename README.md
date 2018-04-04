@@ -4,7 +4,7 @@
 
 _Brian Shirai, Rubinius, Inc. April 2018, Version 0.8_
 
-Just over 100 years ago, on December 1st, 1913, the first moving assembly line was installed by Henry Ford. The assembly line reduced the time to produce an automobile to 20% of the time it originally required.
+Just over 100 years ago, on December 1st, 1913, the first moving assembly line was installed by Henry Ford. The assembly line reduced by 80% the time to produce an automobile in Ford's plant.
 
 The assembly line is one of the most recognizable and outstanding successes of mass industrialization.
 
@@ -16,9 +16,9 @@ Much of the blame for our inability to _industrialize_ digital products can be p
 
 The properties of information dictate both the structure of microservices and the processes used to build digital products, just as the properties of matter dictate use of the assembly line and processes for controlling manufacturing.
 
-The primary process of any business is learning, not production, and microservices are an optimal structure for business.
+The primary process of any business is learning, which is applying information to a problem, and this makes microservices an optimal structure for business.
 
-In this paper, we begin in [Part 1](problem.md) with the problem of applying new information to an existing system in a competitive market, and summarize existing procedural and structural flaws that complicate building digital products. Then we define the structure and function of microservices in [Part 2](solution.md). In [Part 3](platform.md) we introduce features of the Rubinius platform that reflect the structure of microservices and aid building them. Finally in [Part 4](benefits.md), we illustrate benefits of microservices relative to the problems of building digital products.
+We begin in [Part 1](problem.md) with the problem of applying new information to an existing system in a competitive market, and summarize existing procedural and structural flaws that complicate building digital products. Then we define the structure and function of microservices in [Part 2](solution.md). In [Part 3](platform.md) we introduce features of the Rubinius platform that reflect the structure of microservices and aid building them. Finally in [Part 4](benefits.md), we illustrate benefits of microservices relative to the problems of building digital products.
 
 ### A note on terminology
 

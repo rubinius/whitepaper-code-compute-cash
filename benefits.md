@@ -152,16 +152,57 @@ The advantage for every business is that they will be able to leverage highly st
 
 The impact that microservices will have on businesses indicates a trend away from the massive centralization that is currently the norm.
 
+Microservices present the correct granularity to support collaboration. Historically, in digital products, collaboration is centered in programming languages, libraries, or application frameworks. None of these adequately solve the problems of collaboration because all of these require additional mechanisms to yield functioning applications.
+
+In contrast, microservices can be offered and consumed with no additional effort beyond that necessary to run the microservices infrastructure. The microservices properties of isolation and repeating structure enable deep collaboration between services running on different instances of microservices infrastructure. The blurring of boundaries described above is a positive influence on collaboration and diversity.
+
+Microservices is not neutral architecture. It favors distribution, decentralization, and diversity. Centralization is only achieved at a greater cost.
+
 Any degree of lessening of centralization is _decentralization_. It is the trend that should interest us. The property of information that makes it infinitely copiable is another force working against centralization.
 
 Decentralization implies, but does not guarantee, more diversity. Decentralization is the only way that diversity can increase.
 
-Microservices provide the granularity that supports collaboration in a way that supports diversity.
-
 ## A return to human values
+
+There are many sources of conflict in human society, and they all eventually reduce to 1. who benefits? 2. who pays? and 3. who decides? The _supply-demand_ curves are simple representation of the conflict inherent when two parties attempt to maximize a function in opposite directions.
+
+The best _collective_ outcomes are achieved when no _individual_ (whether a person or entity) enjoys undue influence. A continual process of rebalancing and leveling power is necessary to avoid accumulation that tips the system toward pathological outcomes.
+
+As described in [Part 3](platform.md), we can choose to impose constraints to favor _a direction toward_ desirable outcomes and disadvantage undesirable ones. A single highly-dominant provider of a feature in a large market diminishes the overall benefit possible by adding monocultural vulnerability while limiting potential benefit from variations. Setting an overall disposition on the evolution of the system allows beneficial outcomes globally without dictating outcomes locally.
+
+The properties of microservices maximize applying new information. This inherently limits any attempt to consolidate control because the balance is heavily tilted toward replacing any component that begins to assert control at the expense of the ecosystem.
 
 ## Summary of the benefits
 
+Just as the assembly line significantly reduced the cost of manufacturing, microservices provide the lowest-cost mechanism for building digital products.
+
+The properties of microservices are as transparent as possible to the process of applying new information to a problem.
+
+In place of the craftsmanship approach to building digital products, where fashion, fame, or power reign, the properties of information dictate the processes we use. This provides a basis for measuring and improving efficiency that is independent of particular industries, businesses, and people.
+
+Microservices unify correctness, security, and quality and elevate them to a consistent, inherent aspect of the digital product instead of being an afterthought or add-on.
+
+Most importantly, microservices reverse the trend of technology fueling ever greater centralization and accumulation of power by making collaboration less costly that concentration of control. The rich and varied fabric of humans in society can participate and influence outcomes in a meaningful way.
+
+## Start here
+
+To begin your journey to microservices, here are questions to ask:
+
+1. How do we measure learning?
+1. Can we visualize our process?
+1. What is our batch size and cycle time?
+1. What is the quality of our feedback loops? How do we measure them?
+1. What is the cost of our status, testing, and delivery processes?
+1. What is the minimum time to deploy any change?
+1. What is the smallest change we can deploy?
+1. Do we use feature flags to deploy more than one version of a feature?
+1. How do we know the system is working after we deploy?
+1. Who can suggest a change to our status, testing, or delivery processes?
+1. When do we learn about problems in our system?
+1. What is the cost of delay when a feature is ready but cannot be delivered?
+1. How quickly can we change direction after learning new information?
+
+Now revisit each question. How would your biggest competitor answer them?
 
 ---
 
