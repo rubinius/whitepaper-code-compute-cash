@@ -10,7 +10,7 @@ The assembly line is one of the most recognizable and outstanding successes of m
 
 With the development of digital technology last century, businesses adopted manufacturing models and processes to build digital products. Unfortunately, despite the example provided by manufacturing, there are no outstanding successes in digital products that rival what we have achieved in manufacturing.
 
-Much of the blame for our inability to _industrialize_ digital products can be placed on the adoption of manufacturing processes. Information is fundamentally different than matter, and that difference requires a different mechanism than the assembly line.
+Much of the blame for our inability to _industrialize_ digital products can be placed on the adoption of manufacturing processes. Information is fundamentally different than matter, and requires a different mechanism than the assembly line.
 
 **_Microservices_ are a context-independent and scale-independent mechanism and structure for digital products that maximizes applying new information while minimizing its cost.**
 
@@ -32,7 +32,7 @@ Our purpose is not a _natural history_ of digital architecture. Instead, we desi
 
 Aspiring to a goal is not the same as attaining the goal. A moment's reflection hopefully convinces us that we should be dissatisfied with anything less than a _theory_ of applying information to build digital products in a competitive market. Whether we are making progress in that endeavor requires the scientific method. We form an explanation.[^2] We make predictions and test them. We extinguish incorrect beliefs[^3] and refine the explanation. Most of what we learn, we could not predict.[^4]
 
-The [web version](https://rubinius.gitbooks.io/whitepaper-code-compute-cash/content/) of this paper permits commenting, which is highly encouraged and appreciated. The paper is also available in PDF, ePub, and Mobi formats [at the GitBook website](https://www.gitbook.com/book/rubinius/whitepaper-code-compute-cash/details).
+This paper is also available in PDF, ePub, and Mobi formats [at the GitBook website](https://www.gitbook.com/book/rubinius/whitepaper-code-compute-cash/details).
 
 ---
 
