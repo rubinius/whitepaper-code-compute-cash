@@ -107,6 +107,8 @@ A developer may make changes to a service, and that service is constantly updati
 
 The transparency of the platform is as high as possible for the people who are collaborating on the digital product, where transparency is the idea that nothing in the platform imposes an additional cost unrelated to the digital product being built.
 
+The graph of services, the recipe for creating them all, is not bound to the Rubinius platform and can be migrated to any infrastructure that can be described in [Terraform](https://www.terraform.io).
+
 ## Platform as marketplace
 
 The platform is also a marketplace where people can provide services, libraries, and programming languages on a utility cost model. We must create systems that fairly reward people for the value they add to ecosystems.
