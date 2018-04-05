@@ -100,6 +100,8 @@ The quality of an application will be a property of its correctness. The ability
 
 Quality will also be a function of business value. Where additional quality can provide more value, it will be added. This will be measured at such fine granularity that significant waste resulting from overbuilding will be eliminated. The decision whether to use an existing service or build one will be constantly re-evaluated in response to changing circumstances and changing demand. The ability to respond quickly, and at such fine granularity, is built into the infrastructure of microservices.
 
+This continual monitoring and embedding of quality in the application has been created in things like the Netflix chaos monkey, but will become an essential and ubiquitous aspect of all applications.
+
 ## A new paradigm for business
 
 The context of microservices is a viable business building digital products. Any business in a market must satisfy a simple set of equations:
