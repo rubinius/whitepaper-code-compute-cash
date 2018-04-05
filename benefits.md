@@ -98,9 +98,9 @@ As hinted at with respect to security above, the _boundary_ of an application be
 
 The quality of an application will be a property of its correctness. The ability to "test" before "delivering" an application will not exist. The inter-dependence of services will mean that substantial portions of the application will not be controlled by the same team or company. Just like security, correctness will be an ongoing, fluid response by the application in real time. Quality will encompass correctness, response to scaling demand, and recovery from errors.
 
-Quality will also be a function of business value. Where additional quality can provide more value, it will be added. This will be measured at such fine granularity that significant waste resulting from overbuilding will be eliminated. The decision whether to use an existing service or build one will be constantly re-evaluated in response to changing circumstances and changing demand. The ability to respond quickly, and at such fine granularity, is built into the infrastructure of microservices.
-
 This continual monitoring and embedding of quality in the application has been created in things like the Netflix chaos monkey, but will become an essential and ubiquitous aspect of all applications.
+
+Quality will also be a function of business value. Where additional quality can provide more value, it will be added. This will be measured at such fine granularity that significant waste resulting from overbuilding will be eliminated. The decision whether to use an existing service or build one will be constantly re-evaluated in response to changing circumstances and changing demand. The ability to respond quickly, and at such fine granularity, is built into the infrastructure of microservices.
 
 ## A new paradigm for business
 
