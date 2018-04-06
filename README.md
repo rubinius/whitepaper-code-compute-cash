@@ -6,7 +6,7 @@ _Brian Shirai, Rubinius, Inc. April 2018, Version 0.8_
 
 Just over 100 years ago, on December 1st, 1913, the first moving assembly line was installed by Henry Ford. The assembly line reduced by 80% the time to produce an automobile in Ford's plant.
 
-The assembly line is one of the most recognizable and outstanding successes of mass industrialization.
+The assembly line is one of the most recognizable and outstanding successes of industrialization and mass production.
 
 With the development of digital technology last century, businesses adopted manufacturing models and processes to build digital products. Unfortunately, despite the example provided by manufacturing, there are no outstanding successes in digital products that rival what we have achieved in manufacturing.
 
