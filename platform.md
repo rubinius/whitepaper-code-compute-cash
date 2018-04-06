@@ -49,7 +49,7 @@ The register instructions include those for performing typical arithmetic on mac
 
 The instruction set is also designed to enable producing native machine code executables from managed code.
 
-The code itself is stored in the CodeDB, a physical and logical structure that enables lazily loading code at the moment it will be used, as well as associating arbitrary dimensions of information with each executable context, including type information, runtime code coverage, runtime profiling, runtime measurements, exception types, and call graphs.
+The code itself is stored in the CodeDB, a physical and logical structure that enables lazily loading code at the moment it will be used, as well as associating arbitrary dimensions of information with each executable context, including source code, parsed abstract syntax trees (AST), compiler intermediate representations (e.g. LLVM IR), type information, runtime code coverage, runtime profiling, runtime measurements, exception types, and call graphs.
 
 ### Managed memory
 
