@@ -65,6 +65,14 @@ The managed objects are either object-oriented, including a class reference and 
 
 The hybrid managed object structure enables object-oriented methods and data-oriented functions to coexist on equal footing, neither being subordinated to the other.
 
+One of the criticisms of microservices and distributed applications in general is that the cost of inter-process communication is much higher than an in-process procedure call.
+
+Historically, structures that encourage and enable better organized code and application architecture are removed or reduced by the runtime system. The most common examples are hierarchical memory caches and just-in-time compilers.
+
+The Rubinius heap structure enables a sort of just-in-time compiler for distributed applications. _Service Fusion_ is the mechanism of potentially routing suitable code to the same machine, and if using isolated heaps, to the same process, so that the overhead of inter-process communication is eliminated.
+
+As with any just-in-time compiler or caching strategy, such an approach is not without flaws, but it is consistent with performance optimization in general and represents a significant opportunity for a microservices platform.
+
 ### Concurrency
 
 The virtual machine structures are thread-safe without a global lock, and native operating threads can be created and manipulated by running code. Certain virtual machine tasks also make use of threads.
@@ -101,7 +109,7 @@ There are no concepts of environments like the typical "development", "staging",
 
 The logical extension of the CodeDB is a structure that allows direct reference to code or code artifacts (e.g. parsed ASTs, compiled bytecode, or machine code) via [IPFS](https://ipfs.io). Package manangers like Rubygems and NPM are relics of a past when software programs were delivered on physical media. They are irrelevant in a system like a microservices platform.
 
-The concepts of a "deliverable", and even "delivery" cease to have relevance in a system like the microservices platform because the granularity of any change can be as small as possible. There are no longer operational tasks like deployment and delivery. The changes to the system can be made by anyone in the business.
+The concepts of a "deliverable", and even "delivery" cease to have relevance in a system where the granularity of any change can be as small as possible. There are no longer operational tasks like deployment and delivery. The changes to the system can be made by anyone in the business.
 
 A developer may make changes to a service, and that service is constantly updating and is accessible, for instance, to another developer who is working on a mobile client. A marketing person may add a release tag. The mobile client makes a connection to the newly "released" service.
 
